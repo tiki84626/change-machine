@@ -1,0 +1,16 @@
+body {
+  background-color: #CDE7B0;
+}
+
+#amount-header, #change-header, #your-change-header {
+  font-variant: small-caps;
+  color: #BE6E46;
+}
+
+#change-header {
+
+}
+
+#your-change-header{
+
+}
