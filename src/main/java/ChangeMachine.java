@@ -12,9 +12,16 @@ public class ChangeMachine {
     mPennies = 20;
   }
 
-  public float getTotalcash(){
+  public float getTotalcash() {
     float totalCash = (mQuarters*.25f + mDimes*.10f + mNickels*.05f + mPennies*.01f);
     return totalCash;
+  }
+
+  public void addTenDollars() {
+    mQuarters += 20;
+    mDimes += 20;
+    mNickels += 40;
+    mPennies += 100;
   }
 
   public int getQuarters(){
